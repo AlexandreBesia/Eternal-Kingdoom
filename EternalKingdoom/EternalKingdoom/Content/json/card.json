@@ -1,0 +1,2394 @@
+[
+    {
+        "Id": 0,
+        "Name": "Ronan DeBrif",
+        "Picture": "cards/Knight",
+        "Text": "Votre Altesse, la météo n'est pas très clémente ces temps-ci. Sacrifions quelques paysannes pour calmer les cieux.",
+        "Choices" : [
+            "Bien sûr, faites amener 3 paysannes !",
+            "C'est hors de question, vous êtes complètement fou !"
+        ],
+        "firstChoice" : [
+            3,
+            2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            -2,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+    {
+        "Id": 1,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Votre Altesse, voulez-vous venir vous promener avec moi au clair de lune ?",
+        "Choices" : [
+            "Volontiers ma chère, prenez mon bras.",
+            "Je suis occupé."
+        ],
+        "firstChoice" : [
+            3,
+            0,
+            -3,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            2,
+            0
+        ],
+		"cardType":0
+    },
+    {
+        "Id": 2,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "Je vous défie dans un combat singulier.",
+        "Choices" : [
+            "À l'attaque manant!",
+            "Oh non ayez pitié !"
+        ],
+        "firstChoice" : [
+            4,
+            0,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            2,
+            0,
+            -1
+        ],
+		"cardType":1
+    },
+    {
+        "Id": 3,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "Répondez à mon énigme mon roi.",
+        "Choices" : [
+            "Donne ton énigme, sorcier.",
+            "Je n'ai pas le temps pour ces bêtises."
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            -1,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            3,
+            0
+        ],
+		"cardType":2
+	},
+	{
+        "Id": 4,
+        "Name": "Ronan DeBrif",
+        "Picture": "cards/Knight",
+        "Text": "La ville voisine de Langdale appelle à l'aide. Ils sont attaqués par des barbares !",
+        "Choices" : [
+            "Envoyez 40 cavaliers les aider.",
+            "Nous n'avons malheureusement pas assez de troupes pour les aider."
+        ],
+        "firstChoice" : [
+            3,
+            0,
+            -2,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 5,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Je souhaite construire un jardin botanique dans la cour du château.",
+        "Choices" : [
+            "Excellente idée, voici les fonds nécessaires.",
+            "Non, nous avons besoin de la place pour construire une dépendance."
+        ],
+        "firstChoice" : [
+            1,
+            -2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 6,
+        "Name": "Sir Peeves",
+        "Picture": "cards/Knight2",
+        "Text": "Un prisonnier s'est échappé !",
+        "Choices" : [
+            "Rattrapez-le le plus vite possible !",
+            "Il n'était pas très dangereux, nous nous en occuperons plus tard."
+        ],
+        "firstChoice" : [
+            2,
+            -1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 7,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "Le bal du solstice d'hiver approche. Puis-je l'organiser ?",
+        "Choices" : [
+            "Bien évidemment !",
+            "Impossible, je dois renforcer la défense aux frontières."
+        ],
+        "firstChoice" : [
+            2,
+            -4,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            4,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 8,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "Réponds correctement à mon énigme et tu seras riche. Mais si tu te trompes, la colère des dieux s'abattra sur ton peuple.",
+        "Choices" : [
+            "Parle, grand sorcier du Nord !",
+            "Gardes ! Sortez cet homme de l'enceinte du château !"
+        ],
+        "firstChoice" : [
+            -2,
+            4,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            0,
+            0,
+            -4
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 9,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "La famille royale de Yarlford souhaite s'installer au château.",
+        "Choices" : [
+            "Ils sont les bienvenus, installez-les dans l'aile libre du château.",
+            "Hors de question, leur aïeul est un traitre !"
+        ],
+        "firstChoice" : [
+            0,
+            0,
+            0,
+            1
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 10,
+        "Name": "Homme encapuchonné",
+        "Picture": "cards/encapuchonne",
+        "Text": "Joue avec moi. Si tu gagnes, l'or coulera à flots. Si je gagne, le sang coulera à flots.",
+        "Choices" : [
+            "Je n'aime pas ton ton, mais j'accepte ton défi.",
+            "Gardes ! Sortez cet énergumène qui ose me menacer !"
+        ],
+        "firstChoice" : [
+            0,
+            4,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            0,
+            -4
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 11,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Des guérisseurs sont aux portes de la ville et proposent leurs services.",
+        "Choices" : [
+            "Engagez-les, nous manquons souvent de guérisseurs.",
+            "Leur prix est bien trop élevé. Nous ferons sans eux."
+        ],
+        "firstChoice" : [
+            0,
+            -3,
+            0,
+            2
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 12,
+        "Name": "Sir Peeves",
+        "Picture": "cards/Knight2",
+        "Text": "La ville de Langdale propose de nous vendre le grand marais.",
+        "Choices" : [
+            "J'accepte, nous demanderons au sorcier de l'assécher.",
+            "Leur prix est totalement déraisonnable !"
+        ],
+        "firstChoice" : [
+            0,
+            -3,
+            0,
+            2
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 13,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "Le cirque ambulant voudrait s'installer.",
+        "Choices" : [
+            "Faites-leur une place dans la cour nord.",
+            "Ces sauvages sont violents, renforcez la sécurité et ne les laissez pas rentrer !"
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            0,
+            -2
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            2,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 14,
+        "Name": "Lilianna Stap",
+        "Picture": "cards/Knight3",
+        "Text": "Des barbares nous attaquent par le nord, que suggérez-vous ?",
+        "Choices" : [
+            "Il faut renforcer les défenses extérieures pour protéger les fermiers.",
+            "Ils sont trop nombreux, attendons-les derrière nos murs."
+        ],
+        "firstChoice" : [
+            0,
+            -3,
+            2,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            2,
+            -3
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 15,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Que pensez-vous de ce projet d'agrandissement ?",
+        "Choices" : [
+            "Il est excellent !",
+            "Ce terrain est beaucoup trop exposé pour y construire des maisons"
+        ],
+        "firstChoice" : [
+            0,
+            -1,
+            0,
+            1
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            1,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 16,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "J'ai créé un nouveau sort de tempête de feu. Répondez à mon énigme et je vous le donne.",
+        "Choices" : [
+            "Je suis prêt.",
+            "Cela me semble dangereux."
+        ],
+        "firstChoice" : [
+            0,
+            0,
+            2,
+            -2
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            -2
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 17,
+        "Name": "Chevalier des fleurs",
+        "Picture": "cards/Knight4",
+        "Text": "Un chevalier errant vous provoque en duel. Si vous gagnez, il se ralliera au royaume.",
+        "Choices" : [
+            "J'accepte son défi, entrainons-nous !",
+            "Je n'ai pas de temps à perdre avec un pouilleux."
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            1,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            -2,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 18,
+        "Name": "Homme encapuchonné",
+        "Picture": "cards/encapuchonne",
+        "Text": "Joue avec moi. Si tu gagnes, je le laisse ce rubis. Sinon...",
+        "Choices" : [
+            "J'accepte ton défi !",
+            "Sinon quoi ? Je n'aime pas qu'on me menace, sortez d'ici !"
+        ],
+        "firstChoice" : [
+            0,
+            3,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            -2,
+            0
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 19,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "La fête de l'hiver approche. Puis-je l'organiser ?",
+        "Choices" : [
+            "Bien entendu. Voici les fonds nécessaires.",
+            "Nos caisses sont vides, il faudra s'en passer cette année."
+        ],
+        "firstChoice" : [
+            2,
+            -1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 20,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "Monseigneur, un mal inconnu contamine nos puits !",
+        "Choices" : [
+            "Rappelez nos mages, qu'ils quittent le front contre les barbares pour venir régler cette affaire.",
+            "Tous nos mages sont occupés, dites à la population d'aller s'approvisionner à la rivière."
+        ],
+        "firstChoice" : [
+            3,
+            0,
+            -2,
+            2
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            3,
+            -2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 21,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Un homme étrange a laissé ce coffre devant la porte du château.",
+        "Choices" : [
+            "Dites aux gardes de l'ouvrir.",
+            "C'est suspect, demandez à nos mages de s'en occuper."
+        ],
+        "firstChoice" : [
+            0,
+            3,
+            0,
+            -2
+        ],
+        "secondChoice" : [
+            0,
+            2,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 22,
+        "Name": "Ronan DeBrif",
+        "Picture": "cards/Knight",
+        "Text": "Un groupe de pillards s'est approprié un post de Gard extérieur et un autre s'attaque au marché.",
+        "Choices" : [
+            "Envoyez la garde au marché, le peuple passe avant tout !",
+            "Cette tour est cruciale à notre défense, il faut la reprendre !"
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            -2,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 23,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "Les mineurs veulent être augmentés.",
+        "Choices" : [
+            "Alors qu'ils rapportent de moins en moins ? Hors de question !",
+            "J'accepte leur requête pour cette fois."
+        ],
+        "firstChoice" : [
+            0,
+            1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            -1,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 24,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "L'hiver est trop dur. Le peuple souffre de famine.",
+        "Choices" : [
+            "Achetez ce qu'il nous faut au seigneur de Langdale.",
+            "Nous ne pouvons rien pour eux."
+        ],
+        "firstChoice" : [
+            2,
+            -3,
+            0,
+            3
+        ],
+        "secondChoice" : [
+            0,
+            2,
+            0,
+            -3
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 25,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "C'est bientôt votre anniversaire. Devrions-nous organiser une fête ?",
+        "Choices" : [
+            "Bien entendu. Conviez nos alliés.",
+            "Faites plutôt venir le cirque en ville. Cela plaira au peuple."
+        ],
+        "firstChoice" : [
+            1,
+            -1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            3,
+            -1,
+            -1,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 26,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "Le clan des Jouvemoux souhaite se rallier au royaume.",
+        "Choices" : [
+            "Envoyez un émissaire pour ratifier un traité officiel.",
+            "Je ne leur fais pas confiance, envoyez nos troupes aux frontières."
+        ],
+        "firstChoice" : [
+            0,
+            2,
+            -4,
+            2
+        ],
+        "secondChoice" : [
+            0,
+            -1,
+            2,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 27,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "Un incendie ravage la partie ouest de la ville !",
+        "Choices" : [
+            "Sauvez en priorité les paysans !",
+            "Sauvez en priorité les stocks de nourriture !"
+        ],
+        "firstChoice" : [
+            4,
+            0,
+            0,
+            -2
+        ],
+        "secondChoice" : [
+            -4,
+            0,
+            0,
+            4
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 28,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "Je vous défie en duel. Si je gagne, je prends les monts brumeux. Si vous gagnez, je vous donne ce joyau.",
+        "Choices" : [
+            "Je relève votre défi, sorcier.",
+            "Hors de question !"
+        ],
+        "firstChoice" : [
+            0,
+            3,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            0,
+            -3
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 29,
+        "Name": "Homme encapuchonné",
+        "Picture": "cards/encapuchonne",
+        "Text": "Jouez avec moi et vous serez riche... si vous gagnez.",
+        "Choices" : [
+            "J'accepte ton défi, étranger.",
+            "Sors d'ici, espèce de crapule ! Personne ne me menace !"
+        ],
+        "firstChoice" : [
+            0,
+            3,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            0,
+            0
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 30,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Je propose la construction d'une bibliothèque là où l'ancienne grange a brûlé l'an passé.",
+        "Choices" : [
+            "Très bonne idée. Voici le budget nécessaire.",
+            "Les hivers sont rudes, il faut rebâtir la grange."
+        ],
+        "firstChoice" : [
+            2,
+            -2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            -2,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 31,
+        "Name": "Nicholas",
+        "Picture": "cards/Fermier",
+        "Text": "Nous les paysans, on n'est pas content !",
+        "Choices" : [
+            "Et bien moi non plus, partez !",
+            "Que désirez-vous camarades ?"
+        ],
+        "firstChoice" : [
+            -2,
+            0,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 32,
+        "Name": "Spirit Monkey",
+        "Picture": "cards/spiritMonkey",
+        "Text": "...",
+        "Choices" : [
+            "Vite, une offrande pour l'esprit-singe !",
+            "Mais chassez-moi cette créature abjecte !"
+        ],
+        "firstChoice" : [
+            3,
+            3,
+            3,
+            3
+        ],
+        "secondChoice" : [
+            -3,
+            -3,
+            -3,
+            -3
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 33,
+        "Name": "Barde de l'académie",
+        "Picture": "cards/troubadour",
+        "Text": "Il était un héros, nommé Ragnar le Rouge, qui vint à Blancherive et entra dans un bouge.",
+        "Choices" : [
+            "Quelle cacophonie !",
+            "Cette chanson m'est vaguement familière. Donnez de l'or à ce barde."
+        ],
+        "firstChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            3,
+            -2,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 34,
+        "Name": "Monsieur Théodule",
+        "Picture": "cards/cafard",
+        "Text": "Passons aux négociations politiques, Monseigneur.",
+        "Choices" : [
+            "Bien sûr mon brave.",
+            "Aaaargh, amenez-moi l'insecticide !"
+        ],
+        "firstChoice" : [
+            -2,
+            2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            1,
+            -4,
+            0,
+            0
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 35,
+        "Name": "Vieille inconnue",
+        "Picture": "cards/OldWoman",
+        "Text": "Réponds à mon énigme, jeune roi.",
+        "Choices" : [
+            "Donne ton énigme, vénérable sage.",
+            "Sorcière déguerpie."
+        ],
+        "firstChoice" : [
+            1,
+            -2,
+            0,
+            -2
+        ],
+        "secondChoice" : [
+            -3,
+            2,
+            1,
+            0
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 36,
+        "Name": "Soldat Draugr",
+        "Picture": "cards/Squelette",
+        "Text": "Je vais te trancher la gorge, roi illégitime !",
+        "Choices" : [
+            "Prépare-toi à (re)mourir !",
+            "Non, pitié ! Je ne veux pas mourir !"
+        ],
+        "firstChoice" : [
+            2,
+            2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            -1,
+            -2,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 37,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Une petite énigme, humain ?",
+        "Choices" : [
+            "Dit moi tout.",
+            "Retourne barboter loin d'ici poisson !"
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            -3,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            2,
+            0
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 38,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Négocions un traité de paix entre ton royaume et celui de la mer.",
+        "Choices" : [
+            "Excellente idée, il est grand temps de faire la paix.",
+            "Jamais je ne côtoierai de vulgaires poissons !"
+        ],
+        "firstChoice" : [
+            -2,
+            0,
+            1,
+            1
+        ],
+        "secondChoice" : [
+            2,
+            0,
+            -2,
+            -1
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 39,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Le royaume de la mer en a assez de ton oppression en garde.",
+        "Choices" : [
+            "Tu ne fais pas le poids, poisson !",
+            "Je vais changer, promis !"
+        ],
+        "firstChoice" : [
+            1,
+            0,
+            -2,
+            -2
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            2,
+            1
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 40,
+        "Name": "Soldat Draugr",
+        "Picture": "cards/Squelette",
+        "Text": "Jouons, si tu gagnes je te donne ma dent en or.",
+        "Choices" : [
+            "De l'or !",
+            "Je ne traite pas avec les morts !"
+        ],
+        "firstChoice" : [
+            -2,
+            3,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            -3,
+            0,
+            0
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 40,
+        "Name": "Soldat Draugr",
+        "Picture": "cards/Squelette",
+        "Text": "Salut ça va ?",
+        "Choices" : [
+            "Oui et toi ?",
+            "Au secours, un zombie !"
+        ],
+        "firstChoice" : [
+            -1,
+            0,
+            2,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            0,
+            -2,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 41,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Nous aurions besoin de métal pour faire des tridents.",
+        "Choices" : [
+            "Tenez nous en avons bien assez !",
+            "Jamais, vous allez nous embrocher avec  !"
+        ],
+        "firstChoice" : [
+            -2,
+            0,
+            2,
+            0
+        ],
+        "secondChoice" : [
+            1,
+            0,
+            -2,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 41,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Ami ou ennemi.",
+        "Choices" : [
+            "Ami",
+            "Ennemi"
+        ],
+        "firstChoice" : [
+            -1,
+            0,
+            1,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            -1,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 42,
+        "Name": "Vieille inconnue",
+        "Picture": "cards/OldWoman",
+        "Text": "Aidez une vieille femme à traverser les bois.",
+        "Choices" : [
+            "Je n'ai pas le temps, débrouille-toi !",
+            "Bien sûr chez dame."
+        ],
+        "firstChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            -3,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 43,
+        "Name": "Vieille inconnue",
+        "Picture": "cards/OldWoman",
+        "Text": "Je te défie jeune roi.",
+        "Choices" : [
+            "Très bien sorcière, en garde !",
+            "Voyons... À votre âge, ce n'est plus très raisonnable."
+        ],
+        "firstChoice" : [
+            -1,
+            4,
+            0,
+           -1
+        ],
+        "secondChoice" : [
+            1,
+            -4,
+            0,
+            1
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 44,
+        "Name": "Docteur de la peste",
+        "Picture": "cards/plagueDoctor",
+        "Text": "Vous devez mourir roi, c'est la seule solution.",
+        "Choices" : [
+            "C'est toi qui vas mourir scélérat !",
+            "Gardes à moi !"
+        ],
+        "firstChoice" : [
+            0,
+            -4,
+            0,
+            2
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            -4
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 45,
+        "Name": "Docteur de la peste",
+        "Picture": "cards/plagueDoctor",
+        "Text": "Je vais vous vendre le remède contre la grande peste.",
+        "Choices" : [
+            "Négocions tes prix !",
+            "La peste késako ?"
+        ],
+        "firstChoice" : [
+            0,
+            -4,
+            0,
+            1
+        ],
+        "secondChoice" : [
+            0,
+            3,
+            0,
+            -4
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 46,
+        "Name": "Docteur de la peste",
+        "Picture": "cards/plagueDoctor",
+        "Text": "C'est l'heure de votre remède messire.",
+        "Choices" : [
+            "Très bien, merci",
+            "Non, je veux pas, c'est pas bon !"
+        ],
+        "firstChoice" : [
+            2,
+            -1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 47,
+        "Name": "Docteur de la peste",
+        "Picture": "cards/plagueDoctor",
+        "Text": "Une petite énigme et si tu gagnes, je travaillerai pour toi.",
+        "Choices" : [
+            "Allez !",
+            "Non, je ne veux pas de ton travail !"
+        ],
+        "firstChoice" : [
+            0,
+            -2,
+            0,
+            4
+        ],
+        "secondChoice" : [
+            0,
+            2,
+            0,
+            -2
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 48,
+        "Name": "Monsieur Théodule",
+        "Picture": "cards/cafard",
+        "Text": "Salutations, roi des humains.",
+        "Choices" : [
+            "Salutations.",
+            "Aaaargh, tuez cette créature infecte !"
+        ],
+        "firstChoice" : [
+            -2,
+            2,
+            1,
+            0
+        ],
+        "secondChoice" : [
+            4,
+            -4,
+            -1,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 49,
+        "Name": "Monsieur Théodule",
+        "Picture": "cards/cafard",
+        "Text": "Je vais pondre mes oeufs dans tes oreilles, sale humain !",
+        "Choices" : [
+            "Je te tuerais avant, immondice !",
+            "Courage, fuyons !"
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            -3,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            3,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 50,
+        "Name": "Barde de l'académie",
+        "Picture": "cards/troubadour",
+        "Text": "Donnez-moi une pièce.",
+        "Choices" : [
+            "Hors de question !",
+            "Tenez cher barde."
+        ],
+        "firstChoice" : [
+            -4,
+            0,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            -4,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 51,
+        "Name": "Barde de l'académie",
+        "Picture": "cards/troubadour",
+        "Text": "J'aime votre femme et je suis prêt à me battre !",
+        "Choices" : [
+            "Malandrin !",
+            "Prenez-la seulement, mais ne me tapez pas !"
+        ],
+        "firstChoice" : [
+			-2,
+            0,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            0,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 52,
+        "Name": "Nicholas",
+        "Picture": "cards/Fermier",
+        "Text": "Plutôt mourir que de te donner mes poules !",
+        "Choices" : [
+            "Et bien, meurs !",
+            "Très bien, garde tes poules !"
+        ],
+        "firstChoice" : [
+            -2,
+            0,
+            0,
+            -4
+        ],
+        "secondChoice" : [
+            -2,
+            -4,
+            0,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 53,
+        "Name": "Nicholas",
+        "Picture": "cards/Fermier",
+        "Text": "Combien achèteriez-vous mon pain ?",
+        "Choices" : [
+            "Négocions.",
+            "Très cher !"
+        ],
+        "firstChoice" : [
+            1,
+            1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            4,
+            0,
+            0
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 54,
+        "Name": "Homme encapuchonné",
+        "Picture": "cards/encapuchonne",
+        "Text": "Tu vas mourir faux roi.",
+        "Choices" : [
+            "Meurs d'abord.",
+            "Discutons au lieu de nous énerver !"
+        ],
+        "firstChoice" : [
+            -3,
+            3,
+            2,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            0,
+            -4,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 55,
+        "Name": "Chevalier des fleurs",
+        "Picture": "cards/Knight4",
+        "Text": "Oubliez un peu la reine et rejoignez-moi ce soir.",
+        "Choices" : [
+            "Je suis marié, sortez d'ici !",
+            "Pourquoi pas..."
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            0,
+            -2
+        ],
+        "secondChoice" : [
+            -4,
+            0,
+            0,
+            3
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 56,
+        "Name": "Chevalier des fleurs",
+        "Picture": "cards/Knight4",
+        "Text": "Que diriez-vous d'une énigme ?",
+        "Choices" : [
+            "Volontiers !",
+            "Pas envie."
+        ],
+        "firstChoice" : [
+            2,
+            -1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 57,
+        "Name": "Lilianna Stap",
+        "Picture": "cards/Knight3",
+        "Text": "Entrainons-nous à l'épée !",
+        "Choices" : [
+            "Pourquoi pas, que je me dérouille un peu.",
+            "Je n'aime pas la violence."
+        ],
+        "firstChoice" : [
+            -4,
+            0,
+            4,
+            0
+        ],
+        "secondChoice" : [
+            4,
+            0,
+            -4,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 58,
+        "Name": "Lilianna Stap",
+        "Picture": "cards/Knight3",
+        "Text": "Puis-je devenir votre maitresse ?",
+        "Choices" : [
+            "Je suis fidèle à la reine.",
+            "Plus on est de fous plus on rit !"
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            0,
+            -4
+        ],
+        "secondChoice" : [
+            -4,
+            0,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 59,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Je ne vous aime plus !",
+        "Choices" : [
+            "Non je vous aime revenez.",
+            "J'ai tellement de maitresses, partez si vous voulez."
+        ],
+        "firstChoice" : [
+            -4,
+            0,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            0,
+            -4
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 60,
+        "Name": "Sir Peeves",
+        "Picture": "cards/Knight2",
+        "Text": "Je vous trahis !",
+        "Choices" : [
+            "Et moi je vous tue !",
+            "Revenez à la raison."
+        ],
+        "firstChoice" : [
+            3,
+            0,
+            -3,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            3,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 61,
+        "Name": "Sir Peeves",
+        "Picture": "cards/Knight2",
+        "Text": "Négocions quelles terres donner aux barbares !",
+        "Choices" : [
+            "Oui, discutons !",
+            "Bof bof, j'ai pas envie."
+        ],
+        "firstChoice" : [
+            0,
+            2,
+            0,
+            -2
+        ],
+        "secondChoice" : [
+            0,
+            -2,
+            0,
+            3
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 62,
+        "Name": "Ronan DeBrif",
+        "Picture": "cards/Knight",
+        "Text": "Un p'tit combat Votre Altesse.",
+        "Choices" : [
+            "Pourquoi pas mon ami !",
+            "C'est hors de question, je ne veux pas vous blesser !"
+        ],
+        "firstChoice" : [
+            3,
+            0,
+            2,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            2,
+            0,
+            2
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 63,
+        "Name": "Ronan DeBrif",
+        "Picture": "cards/Knight",
+        "Text": "Votre Altesse, la météo n'est pas très clémente ces temps-ci. Sacrifions quelques paysannes pour calmer les cieux.",
+        "Choices" : [
+            "Bien sûr, faites amener 3 paysannes !",
+            "C'est hors de question, vous êtes complètement fou !"
+        ],
+        "firstChoice" : [
+            3,
+            2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            -2,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+    {
+        "Id": 64,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Votre Altesse, voulez-vous venir vous promener avec moi au clair de lune ?",
+        "Choices" : [
+            "Volontiers ma chère, prenez mon bras.",
+            "Je suis occupé."
+        ],
+        "firstChoice" : [
+            3,
+            0,
+            -3,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            2,
+            0
+        ],
+		"cardType":0
+    },
+    {
+        "Id": 65,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "Je vous défie dans un combat singulier.",
+        "Choices" : [
+            "À l'attaque manant!",
+            "Oh non ayez pitié !"
+        ],
+        "firstChoice" : [
+            4,
+            0,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            2,
+            0,
+            -1
+        ],
+		"cardType":1
+    },
+    {
+        "Id": 66,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "Répondez à mon énigme mon roi.",
+        "Choices" : [
+            "Donne ton énigme, sorcier.",
+            "Je n'ai pas le temps pour ces bêtises."
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            -1,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            3,
+            0
+        ],
+		"cardType":2
+	},
+	{
+        "Id": 67,
+        "Name": "Ronan DeBrif",
+        "Picture": "cards/Knight",
+        "Text": "La ville voisine de Langdale appelle à l'aide. Ils sont attaqués par des barbares !",
+        "Choices" : [
+            "Envoyez 40 cavaliers les aider.",
+            "Nous n'avons malheureusement pas assez de troupes pour les aider."
+        ],
+        "firstChoice" : [
+            3,
+            0,
+            -2,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 68,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Je souhaite construire un jardin botanique dans la cour du château.",
+        "Choices" : [
+            "Excellente idée, voici les fonds nécessaires.",
+            "Non, nous avons besoin de la place pour construire une dépendance."
+        ],
+        "firstChoice" : [
+            1,
+            -2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            2
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 69,
+        "Name": "Sir Peeves",
+        "Picture": "cards/Knight2",
+        "Text": "Un prisonnier s'est échappé !",
+        "Choices" : [
+            "Rattrapez-le le plus vite possible !",
+            "Il n'était pas très dangereux, nous nous en occuperons plus tard."
+        ],
+        "firstChoice" : [
+            2,
+            -1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 70,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "Le bal du solstice d'hiver approche. Puis-je l'organiser ?",
+        "Choices" : [
+            "Bien évidemment !",
+            "Impossible, je dois renforcer la défense aux frontières."
+        ],
+        "firstChoice" : [
+            2,
+            -4,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            4,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 71,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "Réponds correctement à mon énigme et tu seras riche. Mais si tu te trompes, la colère des dieux s'abattra sur ton peuple.",
+        "Choices" : [
+            "Parle, grand sorcier du Nord !",
+            "Gardes ! Sortez cet homme de l'enceinte du château !"
+        ],
+        "firstChoice" : [
+            -2,
+            4,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            0,
+            0,
+            -4
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 72,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "La famille royale de Yarlford souhaite s'installer au château.",
+        "Choices" : [
+            "Ils sont les bienvenus, installez-les dans l'aile libre du château.",
+            "Hors de question, leur aïeul est un traitre !"
+        ],
+        "firstChoice" : [
+            0,
+            0,
+            0,
+            1
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 73,
+        "Name": "Homme encapuchonné",
+        "Picture": "cards/encapuchonne",
+        "Text": "Joue avec moi. Si tu gagnes, l'or coulera à flots. Si je gagne, le sang coulera à flots.",
+        "Choices" : [
+            "Je n'aime pas ton ton, mais j'accepte ton défi.",
+            "Gardes ! Sortez cet énergumène qui ose me menacer !"
+        ],
+        "firstChoice" : [
+            0,
+            4,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            0,
+            -4
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 74,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Des guérisseurs sont aux portes de la ville et proposent leurs services.",
+        "Choices" : [
+            "Engagez-les, nous manquons souvent de guérisseurs.",
+            "Leur prix est bien trop élevé. Nous ferons sans eux."
+        ],
+        "firstChoice" : [
+            0,
+            -3,
+            0,
+            2
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 75,
+        "Name": "Sir Peeves",
+        "Picture": "cards/Knight2",
+        "Text": "La ville de Langdale propose de nous vendre le grand marais.",
+        "Choices" : [
+            "J'accepte, nous demanderons au sorcier de l'assécher.",
+            "Leur prix est totalement déraisonnable !"
+        ],
+        "firstChoice" : [
+            0,
+            -3,
+            0,
+            2
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 76,
+        "Name": "Chambellan Ramburiou",
+        "Picture": "cards/ramburiou",
+        "Text": "Le cirque ambulant voudrait s'installer.",
+        "Choices" : [
+            "Faites-leur une place dans la cour nord.",
+            "Ces sauvages sont violents, renforcez la sécurité et ne les laissez pas rentrer !"
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            0,
+            -2
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            2,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 77,
+        "Name": "Lilianna Stap",
+        "Picture": "cards/Knight3",
+        "Text": "Des barbares nous attaquent par le nord, que suggérez-vous ?",
+        "Choices" : [
+            "Il faut renforcer les défenses extérieures pour protéger les fermiers.",
+            "Ils sont trop nombreux, attendons-les derrière nos murs."
+        ],
+        "firstChoice" : [
+            0,
+            -3,
+            2,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            2,
+            -3
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 78,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "Que pensez-vous de ce projet d'agrandissement ?",
+        "Choices" : [
+            "Il est excellent !",
+            "Ce terrain est beaucoup trop exposé pour y construire des maisons"
+        ],
+        "firstChoice" : [
+            0,
+            -1,
+            0,
+            1
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            1,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 79,
+        "Name": "Le sorcier du Nord",
+        "Picture": "fight/enemyFight",
+        "Text": "J'ai créé un nouveau sort de tempête de feu. Répondez à mon énigme et je vous le donne.",
+        "Choices" : [
+            "Je suis prêt.",
+            "Cela me semble dangereux."
+        ],
+        "firstChoice" : [
+            0,
+            0,
+            2,
+            -2
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            -2
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 80,
+        "Name": "Chevalier des fleurs",
+        "Picture": "cards/Knight4",
+        "Text": "Un chevalier errant vous provoque en duel. Si vous gagnez, il se ralliera au royaume.",
+        "Choices" : [
+            "J'accepte son défi, entrainons-nous !",
+            "Je n'ai pas de temps à perdre avec un pouilleux."
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            1,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            -2,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 81,
+        "Name": "Homme encapuchonné",
+        "Picture": "cards/encapuchonne",
+        "Text": "Joue avec moi. Si tu gagnes, je le laisse ce rubis. Sinon...",
+        "Choices" : [
+            "J'accepte ton défi !",
+            "Sinon quoi ? Je n'aime pas qu'on me menace, sortez d'ici !"
+        ],
+        "firstChoice" : [
+            0,
+            3,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            0,
+            -2,
+            0
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 82,
+        "Name": "Mafalda Menest",
+        "Picture": "cards/Queen",
+        "Text": "La fête de l'hiver approche. Puis-je l'organiser ?",
+        "Choices" : [
+            "Bien entendu. Voici les fonds nécessaires.",
+            "Nos caisses sont vides, il faudra s'en passer cette année."
+        ],
+        "firstChoice" : [
+            2,
+            -1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -1,
+            0,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 83,
+        "Name": "Spirit Monkey",
+        "Picture": "cards/spiritMonkey",
+        "Text": "...",
+        "Choices" : [
+            "Vite, une offrande pour l'esprit-singe !",
+            "Mais chassez-moi cette créature abjecte !"
+        ],
+        "firstChoice" : [
+            3,
+            3,
+            3,
+            3
+        ],
+        "secondChoice" : [
+            -3,
+            -3,
+            -3,
+            -3
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 84,
+        "Name": "Barde de l'académie",
+        "Picture": "cards/troubadour",
+        "Text": "Il était un héros, nommé Ragnar le Rouge, qui vint à Blancherive et entra dans un bouge.",
+        "Choices" : [
+            "Quelle cacophonie !",
+            "Cette chanson m'est vaguement familière. Donnez de l'or à ce barde."
+        ],
+        "firstChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            3,
+            -2,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 85,
+        "Name": "Monsieur Théodule",
+        "Picture": "cards/cafard",
+        "Text": "Passons aux négociations politiques, Monseigneur.",
+        "Choices" : [
+            "Bien sûr mon brave.",
+            "Aaaargh, amenez-moi l'insecticide !"
+        ],
+        "firstChoice" : [
+            -2,
+            2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            1,
+            -4,
+            0,
+            0
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 86,
+        "Name": "Vieille inconnue",
+        "Picture": "cards/OldWoman",
+        "Text": "Réponds à mon énigme, jeune roi.",
+        "Choices" : [
+            "Donne ton énigme, vénérable sage.",
+            "Sorcière déguerpie."
+        ],
+        "firstChoice" : [
+            1,
+            -2,
+            0,
+            -2
+        ],
+        "secondChoice" : [
+            -3,
+            2,
+            1,
+            0
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 87,
+        "Name": "Soldat Draugr",
+        "Picture": "cards/Squelette",
+        "Text": "Je vais te trancher la gorge, roi illégitime !",
+        "Choices" : [
+            "Prépare-toi à (re)mourir !",
+            "Non, pitié ! Je ne veux pas mourir !"
+        ],
+        "firstChoice" : [
+            2,
+            2,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            0,
+            -1,
+            -2,
+            0
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 88,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Une petite énigme humain ?",
+        "Choices" : [
+            "Dit moi tout.",
+            "Retourne barboter loin d'ici poisson !"
+        ],
+        "firstChoice" : [
+            2,
+            0,
+            -3,
+            0
+        ],
+        "secondChoice" : [
+            -3,
+            0,
+            2,
+            0
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 89,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Négocions un traité de paix entre ton royaume et celui de la mer.",
+        "Choices" : [
+            "Excellente idée, il est grand temps de faire la paix.",
+            "Jamais je ne côtoierai de vulgaires poissons !"
+        ],
+        "firstChoice" : [
+            -2,
+            0,
+            1,
+            1
+        ],
+        "secondChoice" : [
+            2,
+            0,
+            -2,
+            -1
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 90,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Le royaume de la mer en a assez de ton oppression en garde.",
+        "Choices" : [
+            "Tu ne fais pas le poids, poisson !",
+            "Je vais changer, promis !"
+        ],
+        "firstChoice" : [
+            1,
+            0,
+            -2,
+            -2
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            2,
+            1
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 91,
+        "Name": "Soldat Draugr",
+        "Picture": "cards/Squelette",
+        "Text": "Jouons, si tu gagnes je te donne ma dent en or.",
+        "Choices" : [
+            "De l'or !",
+            "Je ne traite pas avec les morts !"
+        ],
+        "firstChoice" : [
+            -2,
+            3,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            -3,
+            0,
+            0
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 92,
+        "Name": "Soldat Draugr",
+        "Picture": "cards/Squelette",
+        "Text": "Salut ça va ?",
+        "Choices" : [
+            "Oui et toi ?",
+            "Au secours, un zombie !"
+        ],
+        "firstChoice" : [
+            -1,
+            0,
+            2,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            0,
+            -2,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 93,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Nous aurions besoin de métal pour faire des tridents.",
+        "Choices" : [
+            "Tenez nous en avons bien assez !",
+            "Jamais vous allez nous embrocher avec  !"
+        ],
+        "firstChoice" : [
+            -2,
+            0,
+            2,
+            0
+        ],
+        "secondChoice" : [
+            1,
+            0,
+            -2,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 94,
+        "Name": "Merman",
+        "Picture": "cards/merman",
+        "Text": "Ami ou ennemi.",
+        "Choices" : [
+            "Ami",
+            "Ennemi"
+        ],
+        "firstChoice" : [
+            -1,
+            0,
+            1,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            0,
+            -1,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 95,
+        "Name": "Vieille inconnue",
+        "Picture": "cards/OldWoman",
+        "Text": "Aidez une vieille femme à traverser les bois.",
+        "Choices" : [
+            "Je n'ai pas le temps, débrouille-toi !",
+            "Bien sûr chez dame."
+        ],
+        "firstChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            2,
+            -3,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 96,
+        "Name": "Vieille inconnue",
+        "Picture": "cards/OldWoman",
+        "Text": "Je te défie jeune roi.",
+        "Choices" : [
+            "Très bien sorcière, en garde !",
+            "Voyons... À votre âge, ce n'est plus très raisonnable."
+        ],
+        "firstChoice" : [
+            -1,
+            4,
+            0,
+           -1
+        ],
+        "secondChoice" : [
+            1,
+            -4,
+            0,
+            1
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 97,
+        "Name": "Docteur de la peste",
+        "Picture": "cards/plagueDoctor",
+        "Text": "Vous devez mourir roi, c'est la seule solution.",
+        "Choices" : [
+            "C'est toi qui va mourir scélérat !",
+            "Gardes à moi !"
+        ],
+        "firstChoice" : [
+            0,
+            -4,
+            0,
+            2
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            -4
+        ],
+		"cardType":1
+    },
+	{
+        "Id": 98,
+        "Name": "Docteur de la peste",
+        "Picture": "cards/plagueDoctor",
+        "Text": "Je vais vous vendre le remède contre la grande peste.",
+        "Choices" : [
+            "Négocions tes prix !",
+            "La peste késako ?"
+        ],
+        "firstChoice" : [
+            0,
+            -4,
+            0,
+            1
+        ],
+        "secondChoice" : [
+            0,
+            3,
+            0,
+            -4
+        ],
+		"cardType":3
+    },
+	{
+        "Id": 99,
+        "Name": "Docteur de la peste",
+        "Picture": "cards/plagueDoctor",
+        "Text": "C'est l'heure de votre remède messire.",
+        "Choices" : [
+            "Très bien, merci",
+            "Non, je veux pas, c'est pas bon !"
+        ],
+        "firstChoice" : [
+            2,
+            -1,
+            0,
+            0
+        ],
+        "secondChoice" : [
+            -2,
+            1,
+            0,
+            0
+        ],
+		"cardType":0
+    },
+	{
+        "Id": 100,
+        "Name": "Docteur de la peste",
+        "Picture": "cards/plagueDoctor",
+        "Text": "Une petite énigme et si tu gagnes, je travaillerai pour toi.",
+        "Choices" : [
+            "Allez !",
+            "Non, je ne veux pas de ton travail !"
+        ],
+        "firstChoice" : [
+            0,
+            -2,
+            0,
+            4
+        ],
+        "secondChoice" : [
+            0,
+            2,
+            0,
+            -2
+        ],
+		"cardType":2
+    },
+	{
+        "Id": 101,
+        "Name": "Monsieur Théodule",
+        "Picture": "cards/cafard",
+        "Text": "Salutations, roi des humains.",
+        "Choices" : [
+            "Salutations.",
+            "Aaaargh, tuez cette créature infecte !"
+        ],
+        "firstChoice" : [
+            -2,
+            2,
+            1,
+            0
+        ],
+        "secondChoice" : [
+            4,
+            -4,
+            -1,
+            0
+        ],
+		"cardType":0
+    }
+]
